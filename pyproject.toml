@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ai-agent-extension"
+version = "0.1.0"
+description = "An extensible AI agent for code operations"
+authors = ["Rana <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^2.0.0"
+openai = "^1.0.0"
+anthropic = "^0.8.0"
+pytest = "^7.0.0"
+
+[tool.poetry.dev-dependencies]
+black = "^23.0.0"
+isort = "^5.0.0"
+mypy = "^1.0.0"
