@@ -1,0 +1,13 @@
+workspace_dir: "./workspace"
+default_language: "python"
+providers:
+  openai:
+    api_key: "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"
+    model: "gpt-4"
+    temperature: 0.7
+  anthropic:
+    api_key: "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"
+    model: "claude-3-opus-20240229"
+    temperature: 0.7
+max_tokens: 2000
+logging_level: "INFO"
